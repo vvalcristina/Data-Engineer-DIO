@@ -1,41 +1,20 @@
-# Docker
+## [Bootcamp Banco Carrefour Data Engineer  da Digital Innovation One](https://digitalinnovation.one/bootcamps/banco-carrefour-data-engineer)
 
-Repositório dedicado a estudos de Docker do Bootcamp de Data Engineer do Banco Carrefour.
+Repositório dedicado aos cursos do Bootcamp de Data Engineer.
 
-## Project
+Esse Bootcamp tem por objetivo:
 
-Vamos utilizar o [docker-compose] e nosso container vai possuir as imagens do Mongo DB e de Node.js.
+*  Dar seus primeiros passos em Python;
+*  Entender como trabalhar com bancos de dados NoSQL e descubra quais as suas vantagens ;
+* Criar soluções de big data com Hadoop;
+* Conheçer os principais conceitos e ferramentas para transformar grandes massas de dados em informações poderosas de negócio.
 
+### Atividades do Bootcamp
 
-![Captura de tela de 2021-07-29 21-04-56](https://user-images.githubusercontent.com/52939036/127580507-2e5a9abd-e2a8-4694-af4e-10a8d01653e2.png)
+#### Docker
 
-### Instruções de uso:
+Tem por objetivo aprender sobre a orquestração de contêiners com o Docker para criar ambientes isolados em containers.
 
-* Certifique-se que tem o docker instalado na máquina.
+#### Fundamentos de ETL com Python
 
-* Para subir o ambiente docker:
-
-```bash
-    docker-compose up -d
-```
-
-* Para buildar o projeto:
-
-```bash
-    docker-compose up --build -d
-```
-
-* Para adicionar um usuário:
-
-```bash
-    curl -X POST \
-        http://ip-aplicacao-porta/create \
-        -H 'cache-control: no-cache' \
-        -H 'content-type: application/json' \
-        -H 'postman-token: 795b8ccd-0390-d84b-c473-a1c74eb043ac' \
-        -d '{
-        "name": "Darth Vader"
-        }'
-```
-
-[docker-compose]: https://docs.docker.com/compose/compose-file/
+Aprender sobre os processos de ETL (Extract, Transform and Load) e deixar os dados prontos para os demais projetos.
