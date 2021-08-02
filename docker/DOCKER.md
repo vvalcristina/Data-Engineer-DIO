@@ -2,40 +2,14 @@
 
 Repositório dedicado a estudos de Docker do Bootcamp de Data Engineer do Banco Carrefour.
 
-## Project
+## commands
 
-Vamos utilizar o [docker-compose] e nosso container vai possuir as imagens do Mongo DB e de Node.js.
+Tem por objetivo introduzir alguns comandos e conceitos básicos de Docker. Todos os exercícios nesse diretório foram executados utilizando [Play With Docker](https://labs.play-with-docker.com/#).
 
+* 01_storage: exercícios de comandos básicos do Docker.
+* 02_network: exercícios de execução de Docker em diferentes modalidades de configuração de rede.
+* 03_limits: mostra como limitamos os recursos de nossa imagem.
 
-![Captura de tela de 2021-07-29 21-04-56](https://user-images.githubusercontent.com/52939036/127580507-2e5a9abd-e2a8-4694-af4e-10a8d01653e2.png)
+## docker-npm-mongo
 
-### Instruções de uso:
-
-* Certifique-se que tem o docker instalado na máquina.
-
-* Para subir o ambiente docker:
-
-```bash
-    docker-compose up -d
-```
-
-* Para buildar o projeto:
-
-```bash
-    docker-compose up --build -d
-```
-
-* Para adicionar um usuário:
-
-```bash
-    curl -X POST \
-        http://ip-aplicacao-porta/create \
-        -H 'cache-control: no-cache' \
-        -H 'content-type: application/json' \
-        -H 'postman-token: 795b8ccd-0390-d84b-c473-a1c74eb043ac' \
-        -d '{
-        "name": "Darth Vader"
-        }'
-```
-
-[docker-compose]: https://docs.docker.com/compose/compose-file/
+Projeto de construção de um docker-compose com imagens de um banco de dados NoSQL, o Mongo DB e o Node.js.
